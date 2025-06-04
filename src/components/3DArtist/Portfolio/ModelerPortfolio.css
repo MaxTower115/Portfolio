@@ -1,0 +1,43 @@
+.mp-wrp {
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  background-color: black;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-item-active {
+  background-color: #f1c40f;
+  position: absolute;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.grid-item:hover .grid-item-active {
+  opacity: 0.5;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}

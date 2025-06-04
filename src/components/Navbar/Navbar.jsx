@@ -6,12 +6,17 @@ const Navbar = () => {
     <>
       <header className="header">
         <nav className="navbar">
-          <a href="/">Home</a>
-          <a href="/">Portfolio</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
+          <div className="trapezoid"></div>
+          <a href="/">HOME</a>
+          <a href="/">PORTFOLIO</a>
+          <a href="/">ABOUT</a>
+          <a href="/">CONTACT</a>
         </nav>
+        <div className="sb-logo">
+          <p>MAX TOWER</p>
+        </div>
       </header>
+      <div className="fade"></div>
     </>
   );
 };

@@ -1,11 +1,17 @@
 import "./MainModeler.css";
-import refImg from "../../assets/ref.png";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import ModelerCarousel from "../../components/3DArtist/Home/ModelerCarousel.jsx";
+import ModelerPortfolio from "../../components/3DArtist/Portfolio/ModelerPortfolio.jsx";
+import ModelerAbout from "../../components/3DArtist/About/ModelerAbout.jsx";
 
 const MainModeler = () => {
   return (
-    <div className="main-modeler">
-      <img src={refImg} alt="" />
-    </div>
+    <>
+      <ModelerCarousel />
+      <ModelerPortfolio />
+      <ModelerAbout />
+      <Navbar />
+    </>
   );
 };
 

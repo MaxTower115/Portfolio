@@ -1,0 +1,51 @@
+.about-wrp {
+  display: block;
+  position: relative;
+  height: 2400px;
+}
+
+.about-title {
+  position: absolute;
+  font-size: 85px;
+  margin-top: 150px;
+  right: 950px;
+  color: #dbd7bb;
+}
+
+.about-card-wrp {
+  position: relative;
+  height: 1000px;
+  top: 300px;
+}
+.about-tape {
+  position: relative;
+  width: 17%;
+  left: 500px;
+  z-index: 2;
+}
+
+.about-me-card {
+  position: absolute;
+  width: 55%;
+  top: 55px;
+  z-index: 1;
+  left: 600px;
+}
+
+#about-biography {
+  position: absolute;
+  font-size: 60px;
+  z-index: 2;
+  rotate: -25deg;
+  top: 55px;
+  right: 1105px;
+}
+
+.about-card-text {
+  position: absolute;
+  font-size: 30px;
+  left: 690px;
+  top: 17%;
+  width: 31%;
+  z-index: 3;
+}
